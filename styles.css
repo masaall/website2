@@ -23,6 +23,7 @@ h1 {
   font-size:48px;
   margin: 0;
 }
+
 p {
   font-family: 'Lato', sans-serif;
   letter-spacing: 1px;
@@ -117,21 +118,30 @@ header .inner-header {
     justify-content: space-between;
     align-items: center;
 }
+/*
+header h1 {
+    margin: 0;
+    font-size: 2.0rem;
+    font-weight: 700;
+    font-family: 'Lora', sans-serif;
+    background: linear-gradient(135deg, #00b4db, #4CAF50); 
+    color: #fff;
+    padding: 15px 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    clip-path: path('M0,20 Q50,5 100,20 T400,10 V120 H0 Z');
+}*/
 
 header h1 {
     margin: 0;
     font-size: 2.0rem;
     font-weight: 700;
     font-family: 'Lora', sans-serif;
-    /*background: linear-gradient(135deg, #00b4db, #4CAF50); */
-    color: #fff;
     padding: 15px 25px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     position: relative;
-    /*overflow: hidden;*/
-    transition: all 0.3s ease;
-    /*clip-path: path('M0,20 Q50,5 100,20 T400,10 V120 H0 Z');*/
 }
 
 header h1::before {
