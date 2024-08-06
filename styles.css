@@ -129,7 +129,7 @@ header h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     position: relative;
-    overflow: hidden;
+    /*overflow: hidden;*/
     transition: all 0.3s ease;
     /*clip-path: path('M0,20 Q50,5 100,20 T400,10 V120 H0 Z');*/
 }
