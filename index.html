@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pantai Nglambor</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+
+<header>
+<div class="header">
+    <!--Content before waves-->
+    <div class="inner-header flex">
+    <h1>Nglambor Beach</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home Page</a></li>
+            <li><a href="thingstodo.html">Things To Do</a></li>
+            <li><a href="fooddrink.html">Food & Drink</a></li>
+            <li><a href="#Events">Events</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    </div>
+    
+    <div>
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+    <defs>
+    <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+    </defs>
+    <g class="parallax">
+    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+    <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+    </g>
+    </svg>
+    </div>    
+    </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome To Nglambor Beach</h2>
+            <p>Discover The beauty of Our Beaches and Enjoy An Unforgettable Holiday!</p>
+            <a href="#contact" class="cta-button">Contact Us</a>
+        </div>
+    </section>
+
+
+    <section id="explore" class="explores">
+        <div class="container">
+            <h2>EXPLORE NGLAMBOR BEACH</h2>
+            <div class="explore-list">
+                <a href="thingstodo.html" class="explore-link">
+                    <div class="explore">
+                        <h3>Things To Do</h3>
+                        <p>Explore exciting activities and hidden experiences here.</p>
+                    </div>
+                </a>
+                <a href="article.html" class="explore-link">
+                    <div class="explore">
+                        <h3>Article</h3>
+                        <p>Explore interesting articles on Nglambor Beach's history and culture.</p>
+                    </div>
+                </a>
+                <a href="fooddrink.html" class="explore-link">
+                    <div class="explore">
+                        <h3>Food & Drink</h3>
+                        <p>Find local restaurants, cafes, and beachside food options.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>ABOUT NGLAMBOR BEACH</h2>
+            <p>Nglambor Beach is a hidden gem located in Purwodadi Village, Tepus District,
+                Gunung Kidul Regency, Special Region of Yogyakarta. Renowned for its crystal-clear
+                 waters and serene environment, this beach offers an idyllic escape from the hustle
+                and bustle of daily life. Visitors can enjoy a range of activities, including snorkeling 
+                to explore vibrant marine life, relaxing on the soft sandy shores, and taking in breathtaking
+                views of the surrounding natural beauty. With its peaceful ambiance and picturesque scenery,
+                Nglambor Beach is the perfect destination for both relaxation and adventure.</p>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <img src="nglambor1.jpg" alt="Pantai Nglambor 1">
+                <img src="nglambor2.jpg" alt="Pantai Nglambor 1">
+                <img src="nglambor3.jpg" alt="Pantai Nglambor 3">
+                <img src="nglambor4.jpg" alt="Pantai Nglambor 4">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Nglambor Beach. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
