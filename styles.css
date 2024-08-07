@@ -157,12 +157,6 @@ header h1::before {
     transition: transform 0.3s ease;
 }
 
-header h1:hover {
-    background: linear-gradient(135deg, #4CAF50, #00b4db);
-    color: #ffdd57;
-    transform: scale(1.05); 
-}
-
 header h1:hover::before {
     transform: scale(1.2);
 }
@@ -339,7 +333,7 @@ nav ul li a:hover {
 .about {
     padding: 80px 20px;
     text-align: center;
-    background: #fff0b3;
+    /*background: #fff0b3;*/
     background-color: rgba(245, 245, 245);
     position: relative;
     overflow: hidden; 
@@ -392,88 +386,16 @@ nav ul li a:hover {
     font-family: 'Raleway', sans-serif;
 }
 
-.activities {
-    background-color: #ff9966;
-    padding: 80px 20px;
-    text-align: center;
-    color: #fff;
-    position: relative;
-    overflow: hidden;
-}
-
-.activities::before {
-    content: '';
-    position: absolute;
-    top: -100px;
-    left: -100px;
-    width: 300px;
-    height: 300px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
-    z-index: 1;
-}
-
-.activities::after {
-    content: '';
-    position: absolute;
-    bottom: -150px;
-    right: -150px;
-    width: 400px;
-    height: 400px;
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 50%;
-    z-index: 1;
-}
-
-.activities h2 {
-    font-size: 2.2rem;
-    margin-bottom: 20px;
-    color: #fff;
-    font-weight: 700;
-}
-
-.activity-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-    margin-top: 40px;
-}
-
-.activity {
-    background-color: #ffdd57;
-    border-radius: 10px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.activity h3 {
-    color: #ff6f61;
-    margin-bottom: 10px;
-    font-size: 1.5rem;
-    font-weight: 600;
-}
-
-.activity p {
-    color: #666;
-    line-height: 1.6;
-    font-weight: 400;
-}
-
-.activity:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-}
-
 .gallery {
     padding: 80px 20px;
     text-align: center;
-    background: linear-gradient(135deg, #00b4db, #0083b0);
+    /*background: linear-gradient(135deg, #00b4db, #0083b0);*/
+    background: #05bfd8;
+    /*background: rgb(5, 191, 216);*/
     position: relative;
     overflow: hidden;
 }
 
-/* Elemen Dekoratif untuk Galeri */
 .gallery::before, .gallery::after {
     content: '';
     position: absolute;
@@ -541,7 +463,7 @@ nav ul li a:hover {
 
 /* Contact Section */
 .contact {
-    background-color: #ffcc80; /* Warna latar belakang */
+    background-color: rgba(245, 245, 245);
     padding: 80px 15px;
     text-align: center;
     position: relative;
@@ -552,7 +474,7 @@ nav ul li a:hover {
 .contact h2 {
     font-size: 2.2rem;
     margin-bottom: 30px;
-    color: #444;
+    color: rgba(241, 92, 34);
     font-weight: 600;
     position: relative;
     z-index: 1;
